@@ -23,7 +23,7 @@ export default function Home() {
           <h2 className="text-xl font-bold mb-4">How it works</h2>
           <div className="space-y-3 text-sm text-gray-700">
             <p>
-              <strong>Registration:</strong> Creates a new passkey using your device's biometric
+              <strong>Registration:</strong> Creates a new passkey using your device&apos;s biometric
               sensor or security key. The private key never leaves your device.
             </p>
             <p>
@@ -31,7 +31,7 @@ export default function Home() {
               proving your identity without passwords.
             </p>
             <p className="text-xs text-gray-500 mt-4">
-              This implementation uses WebAuthn with ES256 (ECDSA P-256), attestation format "none",
+              This implementation uses WebAuthn with ES256 (ECDSA P-256), attestation format &quot;none&quot;,
               and PostgreSQL for credential storage.
             </p>
           </div>
