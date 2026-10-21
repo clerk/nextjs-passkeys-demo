@@ -3,8 +3,6 @@ import { generateRegistrationOptions } from '@simplewebauthn/server';
 import { findOrCreateUser, insertChallenge } from '@/lib/db';
 import type { RegistrationOptionsRequest } from '@/types/webauthn';
 
-export const runtime = 'nodejs';
-
 export async function POST(request: NextRequest) {
   try {
     const body: RegistrationOptionsRequest = await request.json();
