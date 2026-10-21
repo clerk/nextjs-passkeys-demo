@@ -41,7 +41,7 @@ Learn more in the [Next.js quick start](https://clerk.com/docs/quickstarts/nextj
 
 ## Prerequisites
 
-- Node.js 18+ installed
+- Node.js 20.9 or later installed
 - A PostgreSQL database (see setup options below)
 - pnpm, npm, yarn, or bun package manager
 
