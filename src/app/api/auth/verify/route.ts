@@ -4,8 +4,6 @@ import type { AuthenticationResponseJSON } from '@simplewebauthn/server';
 import { isoBase64URL } from '@simplewebauthn/server/helpers';
 import { getUserByUsername, consumeChallenge, getCredentialById, updateCredentialSignCount } from '@/lib/db';
 
-export const runtime = 'nodejs';
-
 interface VerifyRequest {
   username: string;
   id: string;

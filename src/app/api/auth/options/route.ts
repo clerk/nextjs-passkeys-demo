@@ -3,8 +3,6 @@ import { generateAuthenticationOptions } from '@simplewebauthn/server';
 import { getUserByUsername, getCredentialsByUserId, insertChallenge } from '@/lib/db';
 import type { AuthenticationOptionsRequest } from '@/types/webauthn';
 
-export const runtime = 'nodejs';
-
 export async function POST(request: NextRequest) {
   try {
     const body: AuthenticationOptionsRequest = await request.json();
